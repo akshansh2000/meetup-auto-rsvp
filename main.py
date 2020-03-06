@@ -1,5 +1,4 @@
 from selenium import webdriver
-from selenium.webdriver.remote import remote_connection
 import sys
 import json
 import datetime
