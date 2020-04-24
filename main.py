@@ -87,7 +87,7 @@ def iterate_events(driver, event_links):
         driver.get(event_link)
         already_rsvped &= rsvp_event(driver)
 
-    if already_rsvped:
+    if already_rsvped and event_links:
         print(f"No upcoming events at {datetime.datetime.now()}")
 
 
